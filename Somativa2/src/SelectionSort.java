@@ -5,7 +5,7 @@ public class SelectionSort {
             int index = i;
             for (int j = i + 1; j < arr.length; j++){
                 if (arr[j] < arr[index]){
-                    index = j;//searching for lowest index
+                    index = j;
                 }
             }
             int smallerNumber = arr[index];
@@ -15,16 +15,16 @@ public class SelectionSort {
     }
 
     public static void main(String a[]){
-        int[] arr1 = {9,14,3,2,43,11,58,22};
-        System.out.println("Before Selection Sort");
+        int[] arr1 = {3,6,8,1,4,9,0};
+        System.out.println("Array antes do Selection Sort:\n");
         for(int i:arr1){
             System.out.print(i+" ");
         }
         System.out.println();
 
-        selectionSort(arr1);//sorting array using selection sort
+        selectionSort(arr1);
 
-        System.out.println("After Selection Sort");
+        System.out.println("Array antes do Selection Sort:\n");
         for(int i:arr1){
             System.out.print(i+" ");
         }
