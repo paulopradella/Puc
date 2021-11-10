@@ -14,7 +14,7 @@ public class SelectionSort {
         }
     }
 
-    public static void main(String a[]){
+    public static void main(String[] a){
         int[] arr1 = {3,6,8,1,4,9,0};
         System.out.println("Array antes do Selection Sort:\n");
         for(int i:arr1){
@@ -24,7 +24,7 @@ public class SelectionSort {
 
         selectionSort(arr1);
 
-        System.out.println("Array antes do Selection Sort:\n");
+        System.out.println("Array depois do Selection Sort:\n");
         for(int i:arr1){
             System.out.print(i+" ");
         }
