@@ -1,3 +1,9 @@
+//GIOVANNA TROMBIN
+//HELITON FLAVIO DE ALMEIDA
+//LUISA GAVLAK VILARES CORDEIRO
+//MATHEUS SAMUEL
+//PAULO HENRIQUE RODRIGUES PRADELLA
+
 public class BubbleSort {
     static void bubbleSort(int[] b) {
         int n = b.length;
@@ -13,7 +19,7 @@ public class BubbleSort {
     public static void main(String[] args) {
         int[] b ={3,6,8,1,4,9,0};
 
-        System.out.println("Array antes do uso do Bubble Sort:\n");
+        System.out.println("Array antes do uso do Bubble Sort:");
         for (int k : b) {
             System.out.print(k + " ");
         }
@@ -21,7 +27,7 @@ public class BubbleSort {
 
         bubbleSort(b);
 
-        System.out.println("Array depois do uso do Bubble Sort:\n");
+        System.out.println("Array depois do uso do Bubble Sort:");
         for (int j : b) {
             System.out.print(j + " ");
         }}}

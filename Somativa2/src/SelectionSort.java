@@ -1,3 +1,9 @@
+//GIOVANNA TROMBIN
+//HELITON FLAVIO DE ALMEIDA
+//LUISA GAVLAK VILARES CORDEIRO
+//MATHEUS SAMUEL
+//PAULO HENRIQUE RODRIGUES PRADELLA
+
 public class SelectionSort {
     public static void selectionSort(int[] s){
         for (int i = 0; i < s.length - 1; i++)
