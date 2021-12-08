@@ -1,0 +1,1 @@
+select * from geral.pedido where statusPedido = 0;

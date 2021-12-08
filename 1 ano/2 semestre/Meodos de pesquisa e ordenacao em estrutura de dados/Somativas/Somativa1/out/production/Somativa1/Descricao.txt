@@ -1,0 +1,15 @@
+Uma Lista é uma estrutura de dados dinâmica, onde o número de nós de uma lista pode variar consideravelmente à medida que são inseridos e removidos os elementos.
+Cada elemento de uma lista encadeada (nó) é constituído de dois campos:
+valor e próximo elemento.
+Conforme foi apresentado na semana 4 a estrutura de dados, lista, elabore individualmente ou em dupla,uma lista dinâmica de números inteiros em Java.
+A lista deverá possuir um objeto Nó (classe No) eter os métodos listados abaixo.
+Deverá comprimir a pasta src do projeto em .zip e realizar a entrega no Blackboard.
+boolean vazia() CHECK
+void inserePrimeiro(int info) CHECK
+void insereDepois(No no, int info)CHECK
+void insereUltimo(int info) CHECK
+No removePrimeiro()
+No removeUltimo()
+No remove(No no)
+void mostrar() CHECK
+
